@@ -16,7 +16,7 @@ pub struct Price {
     // exponent of 5 means the Pyth Price exponent was -5
     exponent: u32,
     // Price
-    price: u64,
+    pub price: u64,
     // The TAI64 timestamp describing when the price was published
     publish_time: u64,
 }
